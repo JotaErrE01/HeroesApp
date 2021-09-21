@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <PrivateRoute /> Debe de mostrar el componente si esta autenticado y guardar local storage 1`] = `
+<span>
+  Listo
+</span>
+`;

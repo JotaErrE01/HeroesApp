@@ -1,0 +1,612 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter /> Debe de mostrar el componente de dc si esta autenticado 1`] = `
+<div>
+  <nav
+    class="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      class="navbar-brand"
+      href="/"
+    >
+      Asociaciones
+    </a>
+    <div
+      class="navbar-collapse"
+    >
+      <div
+        class="navbar-nav"
+      >
+        <a
+          class="nav-item nav-link"
+          href="/marvel"
+        >
+          Marvel
+        </a>
+        <a
+          aria-current="page"
+          class="nav-item nav-link active"
+          href="/dc"
+        >
+          DC
+        </a>
+        <a
+          class="nav-item nav-link"
+          href="/search"
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      class="navbar-collapse collapse w-100 order-3 dual-collapse2"
+    >
+      <ul
+        class="navbar-nav ml-auto"
+      >
+        <span
+          class="nav-item nav-link text-info"
+        />
+        <button
+          class="nav-item nav-link btn"
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>
+  <div
+    class="container mt-2"
+  >
+    <div>
+      <div
+        class="card-columns"
+      >
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Batman"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-batman.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Batman
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Bruce Wayne
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Detective Comics #27
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-batman"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Superman"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-superman.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Superman
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Kal-El
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Action Comics #1
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-superman"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Flash"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-flash.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Flash
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Jay Garrick
+                </p>
+                <p
+                  class="card-text"
+                >
+                  Jay Garrick, Barry Allen, Wally West, Bart Allen
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Flash Comics #1
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-flash"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Green Lantern"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-green.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Green Lantern
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Alan Scott
+                </p>
+                <p
+                  class="card-text"
+                >
+                  Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    All-American Comics #16
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-green"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Green Arrow"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-arrow.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Green Arrow
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Oliver Queen
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    More Fun Comics #73
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-arrow"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Wonder Woman"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-wonder.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Wonder Woman
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Princess Diana
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    All Star Comics #8
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-wonder"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Martian Manhunter"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-martian.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Martian Manhunter
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  J'onn J'onzz
+                </p>
+                <p
+                  class="card-text"
+                >
+                  Martian Manhunter
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Detective Comics #225
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-martian"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Robin/Nightwing"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-robin.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Robin/Nightwing
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Dick Grayson
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Detective Comics #38
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-robin"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Blue Beetle"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-blue.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Blue Beetle
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Dan Garret
+                </p>
+                <p
+                  class="card-text"
+                >
+                  Dan Garret, Ted Kord, Jaime Reyes
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Mystery Men Comics #1
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-blue"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="card ms-3"
+          style="max-width: 540px;"
+        >
+          <div
+            class="row no-gutters"
+          >
+            <div
+              class="col-md-4"
+            >
+              <img
+                alt="Black Canary"
+                class=" animate__animated animate__zoomIn card-img"
+                src="/assets/heroes/dc-black.jpg"
+              />
+            </div>
+            <div
+              class="col-md-8"
+            >
+              <div
+                class="card-body"
+              >
+                <h5
+                  class="card-tittle"
+                >
+                  Black Canary
+                </h5>
+                <p
+                  class="car-text"
+                >
+                  Dinah Drake
+                </p>
+                <p
+                  class="card-text"
+                >
+                  Dinah Drake, Dinah Lance
+                </p>
+                <p
+                  class="card-text"
+                >
+                  <small
+                    class="text-muted"
+                  >
+                    Flash Comics #86
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-black"
+                >
+                  Mas...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en <AppRouter /> Debe de mostrar el login si no estoy autenticado 1`] = `
+<div>
+  <div
+    class="container mt-5"
+  >
+    <h1>
+      Login
+    </h1>
+    <hr />
+    <button
+      class="btn btn-primary"
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;
